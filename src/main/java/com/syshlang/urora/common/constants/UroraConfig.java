@@ -1,16 +1,14 @@
 /*
  * Copyright (c) 2021. syshlangcom
  * @File: UroraConfig.java
- * @Description:
+ * @Description: 
  * @Author: sunys
- * @Date: 2021/11/15 上午9:19
+ * @Date: 2021/11/17 下午11:11
  * @since:
  */
 
 package com.syshlang.urora.common.constants;
 
-
-import com.syshlang.common.utils.PropertiesUtil;
 
 /**
  * @description: UroraConfig <br>
@@ -20,8 +18,9 @@ import com.syshlang.common.utils.PropertiesUtil;
  */
 public class UroraConfig {
 
-    public static final String APP_KEY = PropertiesUtil.getAplicationProperties("urora.push.appkey");
-    public static final String MASTER_SECRET = PropertiesUtil.getAplicationProperties("urora.push.mastersecret");
+    public static final String APP_KEY = "";
+    public static final String MASTER_SECRET = "";
 
 
+    public static final boolean APNS_PRODUCTION = true;
 }
